@@ -3,9 +3,15 @@
     position: absolute;
     left: 45%;
 }
+img {
+    padding-top: 5px;
+}
 .headingLogo {
     width: 100%;
     background-color: blue;
+}
+.header-site-title {
+    font-weight: bold;
 }
 .blueDark {
     background-color: #002B52;
@@ -38,6 +44,8 @@ li {
     display: inline-block;
     width: auto;
     list-style: outside none none;
+    color: #000;
+    font-weight: bold;
 }
 .forgot {
     text-align: right;
@@ -53,12 +61,21 @@ li {
     border-radius: 4px;
     box-shadow: 0 4px 10px 4px rgb(19 35 47 / 30%);
 }
+
+.footer-meta li a {
+    padding: 0 8px;
+    border-right: 1px solid white;
+    overflow: hidden;
+    position: relative;
+}
 #footer-feedback {
     position:absolute;
     /* margin-top: -10px; */
     padding: 10px 20px;
     /* margin-left: 40em; */
     right: 0;
+    
+    /* display: flex; */
 }
 .bg_black {
     background: #000;
@@ -67,10 +84,7 @@ li {
 .footer-meta * {
     display: inline-block;
 }
-.footer-meta li a {
-    padding: 0 8px;
-    border-right: 1px solid white;
-}
+
 .footer-meta li.last-child a {
     border-right: none;
 }
